@@ -18,7 +18,7 @@ const Home = () => {
           <div className="updated-left w-auto  md:flex space-y-3 md:space-y-0  md:align-middle  md:space-x-10 text-[#4B5665] ">
             <p className=" md:flex flex md:ml-[-10px] ">
               <CiCircleCheck id="icons" />
-              Last updated <span>-</span> February 22,2020
+              Last updated <span className=" xl:ml-1 xl:mr-1"> - </span> February 22, 2020
             </p>
             <p className=" md:flex flex">
               <CiCircleInfo id="icons"/>

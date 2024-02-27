@@ -2,9 +2,9 @@ import React from 'react'
 
 const Deals = () => {
     let content=[
-        {offer:"20%",img:"download 1.png",time:"Limited Time",name:"webbuilder 1",des:"Computer Modern classic with wix support",price:"$39.96",discount:"$49.96",btn:"View Deal"},
-        {offer:"20%",img:"download 1.png",time:"Limited Time",name:"webbuilder 1",des:"Computer Modern classic with wix support",price:"$39.96",discount:"$49.96",btn:"View Deal"},
-        {offer:"20%",img:"download 1.png",time:"Limited Time",name:"webbuilder 1",des:"Computer Modern classic with wix support",price:"$39.96",discount:"$49.96",btn:"View Deal"},
+        {offer:"20% Off",img:"download 1.png",time:"Limited Time",name:"webbuilder 1",des:"Computer Modern classic with wix support",price:"$39.96",discount:"$49.96",btn:"View Deal"},
+        {offer:"20% Off",img:"download 1.png",time:"Limited Time",name:"webbuilder 1",des:"Computer Modern classic with wix support",price:"$39.96",discount:"$49.96",btn:"View Deal"},
+        {offer:"20% Off",img:"download 1.png",time:"Limited Time",name:"webbuilder 1",des:"Computer Modern classic with wix support",price:"$39.96",discount:"$49.96",btn:"View Deal"},
     ]
   return (
     <div>
@@ -21,9 +21,9 @@ const Deals = () => {
                         <h1 className='text-[1.5rem] text-[#626E79] font-[600] mt-1'>{item.name}</h1>
                         <p className='text-[#626E79] p-4   md:text-start'>{item.des}</p>
                             <div className='flex ml-4 text-[#5C6874]  justify-center items-center gap-5'>
-                                <p className='text-[#5C6874]'>{item.price}</p>
+                                <p className='text-[#5C6874] xl:text-[1.25rem]'>{item.price}</p>
                                 <p className='text-[#9FA9B3] text-sm'>{item.discount}</p>
-                                <p className='text-[red] text-sm'>{(item.offer)}</p> 
+                                <p className='text-[red] text-sm'>({(item.offer)})</p> 
                             </div>
                             <button className=' md:px-[4vh]  px-[10px] py-[10px] mt-5  md:py-3  md:mt-2 rounded-lg text-[#ffffff] bg-[#1B88F4]'>{item.btn}</button>
                         </div>
@@ -33,7 +33,7 @@ const Deals = () => {
       
      
         </div>
-        <div className=' lg:flex lg:justify-center grid  lg:w-[1000px]  md:static md:mt-[15rem] lg:absolute lg:mt-2   xl:left-[17%]   lg:left-[1%] mt-[3rem] md:gap-7  justify-center items-center  lg:gap-[5rem]'>
+        <div className=' lg:flex lg:justify-center grid  lg:w-[1000px]  md:static md:mt-[15rem] lg:absolute lg:mt-2   xl:left-[17%]   lg:left-[1%] mt-[3rem] md:gap-7 xl:mt-[2.7rem]  justify-center items-center  lg:gap-[5rem]'>
             <h1 className=' md:w-auto lg:w-[31vw] mt-11 md:mt-11  lg:mt-5  text-start text-[2.2rem] text-[#5C6874]'>Sign up and get exclusive special deals</h1>
 
                     <div className=' w-auto lg:justify-center lg:flex lg:items-center lg:align-middle md:w-[60vh]'>
