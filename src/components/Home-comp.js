@@ -17,7 +17,7 @@ const HomeComp = () => {
 
 
 
-        <div className='card grid container  md:flex  md:w-[1000px]  md:h-[60vh]   md:justify-around  md:align-middle  md:items-center  md:px-7'>
+        <div className='card grid container  md:flex  md:w-[1000px] xl:mt-5  md:h-[60vh]   md:justify-around  md:align-middle  md:items-center  md:px-7'>
         <p className=' absolute text-xl left-1 top-10'>1</p>
           <div className='img-name mt-3 md:mt-0 grid justify-center  md:gap-5'>
             <img className=' md:h-[100px]' src='download 1.png' alt='noImg'></img> 
@@ -46,7 +46,7 @@ const HomeComp = () => {
 
 
 
-        <div className='card grid container md:flex  md:w-[1000px] md:h-[60vh]  mt-[5rem]  md:justify-around  md:align-middle  md:items-center  md:px-7'>
+        <div className='card grid container md:flex  md:w-[1000px] xl:mt-5 md:h-[60vh]  mt-[5rem]  md:justify-around  md:align-middle  md:items-center  md:px-7'>
         <p className=' absolute text-xl left-0 top-10 border-2 px-3 py-1 rounded-[50%]'>2</p>
           <div className='img-name mt-3 md:mt-0 grid justify-center  md:gap-5'>
             <img className=' md:h-[100px]' src='download 1.png' alt='noImg'></img> 
@@ -75,7 +75,7 @@ const HomeComp = () => {
 
 
 
-        <div className='card container grid md:flex  md:w-[1000px]  md:h-[60vh]  mt-[5rem]  md:justify-around  md:align-middle  md:items-center  md:px-7'>
+        <div className='card container grid md:flex  md:w-[1000px] xl:mt-5  md:h-[60vh]  mt-[5rem]  md:justify-around  md:align-middle  md:items-center  md:px-7'>
         <p className=' absolute text-xl left-0 top-10 border-2 px-3 py-1 rounded-[50%]'>3</p>
           <div className='img-name mt-3 md:mt-0 grid justify-center  md:gap-5'>
             <img className='md:h-[100px]' src='download 1.png' alt='noImg'></img> 
@@ -101,7 +101,7 @@ const HomeComp = () => {
 
 
 
-        <div className='card grid md:flex container  md:w-[1000px]  md:h-[70vh] mt-[5rem]  md:justify-around  md:align-middle  md:items-center  md:px-7'>
+        <div className='card grid md:flex container  md:w-[1000px] xl:mt-10  md:h-[70vh] mt-[5rem]  md:justify-around  md:align-middle  md:items-center  md:px-7'>
         <p className=' absolute text-xl left-0 top-10  border-2 px-3 py-1 rounded-[50%]'>4</p>
           <div className='img-name mt-3 md:mt-0 grid justify-center  md:gap-5'>
             <img className='md:h-[100px]' src='download 1.png' alt='noImg'></img> 

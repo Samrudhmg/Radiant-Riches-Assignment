@@ -37,7 +37,7 @@ const Deals = () => {
             <h1 className=' md:w-auto lg:w-[31vw] mt-11 md:mt-11  lg:mt-5  text-start text-[2.2rem] text-[#5C6874]'>Sign up and get exclusive special deals</h1>
 
                     <div className=' w-auto lg:justify-center lg:flex lg:items-center lg:align-middle md:w-[60vh]'>
-                        <input className='  md:w-[20vw] md:ml-[20%] outline-none border mt-5 md:mt-0 py-[11px]  rounded-l-lg px-8'></input>
+                        <input className='  md:w-[20vw] xl:ml-[0] md:ml-[20%] outline-none border mt-5 md:mt-0 py-[11px]  rounded-l-lg px-8'></input>
                 <button className='py-3  px-6 rounded  md:rounded-r-lg  lg:rounded-r-lg bg-[#1B88F4] text-[white]'>Sign Up</button></div>
                 
 
