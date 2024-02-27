@@ -2,13 +2,13 @@ import React from 'react'
 
 const Deals = () => {
     let content=[
-        {offer:"20%",img:"download 1.png",time:"Limited Time",name:"webbuilder 1",des:"Computer Modern clasic with wix support",price:"$39.96",discount:"$49.96",btn:"View Deal"},
-        {offer:"20%",img:"download 1.png",time:"Limited Time",name:"webbuilder 1",des:"Computer Modern clasic with wix support",price:"$39.96",discount:"$49.96",btn:"View Deal"},
-        {offer:"20%",img:"download 1.png",time:"Limited Time",name:"webbuilder 1",des:"Computer Modern clasic with wix support",price:"$39.96",discount:"$49.96",btn:"View Deal"},
+        {offer:"20%",img:"download 1.png",time:"Limited Time",name:"webbuilder 1",des:"Computer Modern classic with wix support",price:"$39.96",discount:"$49.96",btn:"View Deal"},
+        {offer:"20%",img:"download 1.png",time:"Limited Time",name:"webbuilder 1",des:"Computer Modern classic with wix support",price:"$39.96",discount:"$49.96",btn:"View Deal"},
+        {offer:"20%",img:"download 1.png",time:"Limited Time",name:"webbuilder 1",des:"Computer Modern classic with wix support",price:"$39.96",discount:"$49.96",btn:"View Deal"},
     ]
   return (
     <div>
-        <h1 className='lg:mt-[4rem]   container  md:text-[2.5rem] mt-[3rem] text-[1.5rem] lg:text-center   md:relative  text-start md: w-auto lg:w-[1000px] text-[#2C384A]'>Related deals you migth like for</h1>
+        <h1 className='lg:mt-[4rem]   container  md:text-[2.5rem] mt-[3rem] text-[1.5rem] lg:text-center   md:relative  text-start md: w-auto lg:w-[1000px] text-[#2C384A]'>Related deals you might like for</h1>
         <div className='container  border md:border-none  md:flex justify-center gap-[20px] mt-8 mb-10'>
             {   
                     content.map((item)=>(

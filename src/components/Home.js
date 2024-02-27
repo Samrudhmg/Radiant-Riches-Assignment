@@ -41,7 +41,7 @@ const Home = () => {
         </div>
 
         <div className="flex w-auto text-[10px] ml-1 md:mt-0 mt-1 md:border-none border-t-2 border-b-2  md:ml-3">
-            <p className="flex w-auto mt-3 md:mt-0 ml-2 md:ml-0 mb-2 md:mb-0   text-[#5C6874]">Home <FaAngleRight id="right"/> Hosting for all <FaAngleRight id="right"/> Hosting <FaAngleRight id="right"/> Hosting6 <FaAngleRight id="right"/> Hosting5   </p>
+            <p className="flex w-auto xl:text-[15px] mt-3 md:mt-0 ml-2 md:ml-0 mb-2 md:mb-0   text-[#5C6874]">Home <FaAngleRight id="right"/> Hosting for all <FaAngleRight id="right"/> Hosting <FaAngleRight id="right"/> Hosting6 <FaAngleRight id="right"/> Hosting5   </p>
         </div>
       </div>
     </div>
